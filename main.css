@@ -81,7 +81,7 @@ header div img{
     display: flex;
     justify-content: space-evenly;
 
-    background-color: #2b080be5; 
+    /* background-color: #2b080be5;  */
  }
  nav li{
     display: inline-flexbox;
@@ -89,7 +89,17 @@ header div img{
     
 }
 
-  
+.navhome{
+    background-color: #13031C; 
+    color: #f0f8ff  ;
+}
+
+nav-pages{
+    background-color: #13031C; 
+    color: #f0f8ff  ;
+    position: sticky;
+}
+
 .suscripcion{
     display: flex;
     flex-direction: row;
