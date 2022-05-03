@@ -31,7 +31,10 @@ header{
 
 
 }
-
+th{
+    padding: 2px;
+    align-items: center;
+}
 
 header div img{
     width: 100%;
@@ -81,7 +84,6 @@ header div img{
     display: flex;
     justify-content: space-evenly;
 
-    /* background-color: #2b080be5;  */
  }
  nav li{
     display: inline-flexbox;
@@ -106,10 +108,14 @@ nav-pages{
     flex-wrap: wrap;
     justify-content: flex-end;
     align-content: flex-end;
-    height: 75px;
+    height: 110px;
     color: #f2f9f9ea;
     font-size: 20px;
     margin: 0px;
+}
+
+.suscripcion form{
+    color: #f0f8ff;
 }
 
 .video {
@@ -126,12 +132,10 @@ nav-pages{
      
  }
  footer{
-     display: flex;
-     flex: content;
+     
      background-image: url(./imagenes/imagen4.PNG);
-     align-items: center;
+    
      color: #e6dde5da;
-     flex-wrap: wrap;
     
 
  }
@@ -183,19 +187,17 @@ nav-pages{
      width: 150px;
 
  }
- form{
+
+ .contactenos{
+    justify-content: end;
+     width: 250px;
+     margin: 0px;
      display: flex;
      color: #f0f8ff;
      font-size: 50;
      flex-wrap: wrap;
      flex-direction: column;
      
- }
- .contactenos{
-    justify-content: end;
-     width: 250px;
-     margin: 0px;
-
  }
 .mapa{
     height: 100%;
@@ -240,7 +242,7 @@ nav-pages{
         
     }
 
-   
+    
     .navpages li{
         display: inline;
     }
@@ -302,23 +304,21 @@ nav-pages{
     }
     .botonTrabaja:hover{
        
-        transform: scale(2, 4);
+        transform: scale(1.5, 1.1);
         font-size: 20px;
-        background-color: #28d5b0;
-        height: 25px;
-        width: 35px;
+        
+        height: 5px;
+        width: 15px;
     }
     
     nav li:hover{
-        transform: scale(1.5, 2);
-        height: 25px;
-        width: 40px;
+        transform: scale(1, 1.5) ;
+
     }
 
     .navpages li:hover{
         transform: scale(1.5, 2);
-        height: 25px;
-        width: 40px;
+        
     }
     .productos img:hover{
         transform: scale(2, 2.5);
